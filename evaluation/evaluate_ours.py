@@ -197,10 +197,10 @@ def main():
     else:
         saved_img_base_path = f"evaluation_result_ours_lamda1_{lamda1_ratio}"
 
-    edit_instructions_path = "GIDE-Bench/edit_instructions.json"
+    edit_instructions_path = "../GIDE-Bench/edit_instructions.json"
     with open(edit_instructions_path, "r", encoding="utf-8") as f:
         edit_instructions = json.load(f)
-    global_description_path = "GIDE-Bench/inputal_all.json"
+    global_description_path = "../GIDE-Bench/input_all.json"
     with open(global_description_path, "r", encoding="utf-8") as f:
         global_description = json.load(f)
 

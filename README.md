@@ -42,7 +42,8 @@ You need to install both **SAM 2** and **SAM 3**.
 
 ```bash
 git clone https://github.com/facebookresearch/sam2.git
-cd sam2
+mv sam2 sam2_repo
+cd sam2_repo
 pip install -e .
 ```
 
@@ -50,7 +51,8 @@ pip install -e .
 
 ```bash
 git clone https://github.com/facebookresearch/sam3.git
-cd sam3
+mv sam3 sam3_repo
+cd sam3_repo
 pip install -e .
 pip install -e ".[notebooks]"
 ```
